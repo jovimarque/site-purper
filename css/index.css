@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Teko&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color: #F7F9FC;
+}
+
+
+body.darkmode{
+ background-color: #2f3640;
+}
+
+
+#darkmode{
+width: 120px;
+margin:50px  auto;
+color:black;
+}
+
+
+
+
+
+header{
+    width: 50%;
+    margin:10px auto;
+    border-radius: 25px;
+
+}
+
+
+.navbar{
+
+ width: 100%;
+ height: 50px;
+ padding:40px;
+ border-radius: 25px;
+}
+
+.nav-link{
+    color:rgb(99, 99, 99);
+    font-family: "Teko", sans-serif;
+    font-size: 23px;
+}
+
+.nav-link:hover{
+    color:#aa41ff;
+}
+
+.ativo{
+    color:rgb(170, 65, 255);
+    font-weight: 600;
+    font-family: "Teko", sans-serif;
+}
+
+
+.inicio{
+    width: 610px;
+    height: auto;
+    margin:190px auto;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.title{
+  padding: 7px;
+}
+
+.title h6{
+    text-align: center;
+    margin: 10px;
+}
+
+.title h4{
+    text-align: center;
+}
+
+.photoperfil{
+    padding:10px;
+}
+
+.imgpefil{
+    /*background-color: rgb(138, 138, 238);*/
+    background-color: #ffffff;
+    border-radius: 32px;
+
+    padding: 0x;
+}
+#h6name{
+    font-size: 33px;
+    color:#8a8aee;
+}
+
+
+.credentials{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin:10px;
+}
+
+.credentials h5{
+    text-align: center;
+}
+.credentials h3{
+    font-weight: lighter;
+    font-size: 23px;
+    text-align: center;
+}
+
+
+.socialmedias{
+    width: 80%;
+    height: auto;
+    margin:50px auto;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.midiasicon{
+    width: 260px;
+    margin:10px auto;
+    padding:20px;
+}
+
+
+.midiasicon h3{
+    margin-top: 30px;
+    text-align: center;
+}
+
